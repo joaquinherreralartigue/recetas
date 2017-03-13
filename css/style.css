@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/home/joaquin/Escritorio/coderhouse/recetas/img/Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px; }
+  body .tarjeta {
+    display: flex;
+    flex-flow: column nowrap;
+    background: white;
+    border-radius: 5px; }
+    body .tarjeta img {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; }
+
+.corazon {
+  z-index: 1;
+  position: absolute;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 50px;
+  background: #FDD446;
+  color: white;
+  left: 67%;
+  top: 59%; }
+
+h1 {
+  color: #707070;
+  font-size: 40px;
+  font-family: 'open sans';
+  margin: 30px 0 20px 20px;
+  text-transform: uppercase; }
+
+.caracteristicas {
+  display: flex;
+  flex-flow: row nowrap;
+  color: #707070;
+  font-size: 17px; }
+  .caracteristicas .time {
+    display: flex;
+    flex-flow: row nowrap; }
+    .caracteristicas .time .reloj {
+      margin: 0 10px 15px 20px; }
+  .caracteristicas .comensal {
+    display: flex;
+    flex-flow: row nowrap; }
+    .caracteristicas .comensal .personas {
+      margin: 0 10px 15px 20px; }
+
+.stars {
+  color: #FDD446;
+  font-size: 20px;
+  margin: 0 0 35px 20px; }
+
+.descripcion {
+  text-align: left;
+  color: #707070;
+  font-size: 17px;
+  width: 70%;
+  margin: 0 0 35px 20px; }
+
+.button {
+  display: flex;
+  justify-content: center; }
+  .button button {
+    background: #FF5E81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin-top: 15px; }
+
+/*# sourceMappingURL=style.css.map */
